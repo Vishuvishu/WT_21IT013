@@ -30,7 +30,7 @@ if(sign=="/")
     anss="div is "+ans
     console.log("dv is "+parseInt(no1/no2));
 }
-document.getElementById("get").innerHTML = anss;
+document.getElementById("get").innerHTML = anss;//it return only string 
 //document.getElementById("get").textContent = 12;
 
 //document.getElementById("get").innerHTML = toString(ans);
