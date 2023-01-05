@@ -1,6 +1,7 @@
 
 //EDWHQHEIEWOTRCNHYV RE78776565678678
 a=document.getElementById("HELOO");
+//jdfwefre gku;l6wycytyvuj
 //GERHTEBYIN KML43WV 54 VU6XTTV THV
 const bike={
     compony:"KAVASAKI",
@@ -29,7 +30,16 @@ function MYFUN(idcame){
     {
         case "CAR":
           for(i in car){
-            console.log(car[i])
+           tr = document.createElement("tr");
+           const trkey =document.createElement("td");
+           const rvalue = document.createElement("td");
+            trkey.textContent = i;
+            rvalue.textContent= car[i];
+            tr.appendChild(trkey);
+            tr.appendChild(rvalue);
+
+            document.getElementById("id1").appendChild(tr);
+            
           }  
           break;
         case "phone":
